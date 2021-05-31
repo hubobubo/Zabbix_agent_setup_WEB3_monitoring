@@ -1,12 +1,12 @@
 # Zabbix_agent_setup_WEB3_monitoring
-Tutorial for Zabbix agent setup to connect to Elevante WEB3 node monitoring server
+Tutorial for Zabbix agent setup to connect to Elevate WEB3 node monitoring server
 
 
 Requairments:
   * Ubuntu Server
   * systemd service setup
   
-:heavy_exclamation_mark: To connect to Elevante WEB3 nodes monitoring server you need to <put a name here - discord ? / telegram ? > and request support from one of our admins. When granted you can proceed with preparation your node to be connected to monitoring server :heavy_exclamation_mark:
+:heavy_exclamation_mark: To connect to Elevate WEB3 nodes monitoring server you need to <put a name here - discord ? / telegram ? > and request support from one of our admins. When granted you can proceed with preparation your node to be connected to monitoring server :heavy_exclamation_mark:
 
 ## Instaling Zabbix agent
 
@@ -63,7 +63,7 @@ Open **zabbix_agentd.conf**
 ```nano /etc/zabbix/zabbix_agentd.conf```
 
 then find and replace following entries to looks as below:
-  * `Server=127.0.0.1` to `Server=<elevante_web3_monitoring_server_domain>` /contact Elevante group for this information
+  * `Server=127.0.0.1` to `Server=<elevate_web3_monitoring_server_domain>` /contact Elevate group for this information
   * `TLSConnect=unencrypted` to `TLSConnect=psk`
   * `TLSAccept=unencrypted` to `TLSAccept=psk`
   * `TLSPSKIdentity=<NODE_IP_without_dots>` #for example 18843416870
