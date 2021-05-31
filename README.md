@@ -10,7 +10,7 @@ Requairments:
 
 ## Instaling Zabbix agent
 
-To install then enable zabbix agent to start after reebot do as follow:
+To install and enable zabbix agent to start after reebot do as follow:
 ```
 apt install zabbix-agent
 sudo systemctl enable zabbix-agent
