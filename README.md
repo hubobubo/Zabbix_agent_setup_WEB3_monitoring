@@ -49,6 +49,7 @@ At this point we have clean install of zabbix agent. To make is connecting to mo
 For enrypted connection to server we will setup **PSK enryption** by generating enryption key:
 ```
 sh -c "openssl rand -hex 32 > /etc/zabbix/zabbix_agentd.psk"
+cat /etc/zabbix/zabbix_agentd.psk
 ```
 
 Output should looks like this:
