@@ -80,10 +80,10 @@ Next we need to install zabbix systemd plugin from here [zabbix-systemd-service-
 alternative go to [zabbix-systemd-service-monitoring](https://github.com/MogiePete/zabbix-systemd-service-monitoring) and download whole repository
 **Code (green button) -> Download ZIP** and send to server using "scp" for example.
 
-then make __*.bin__ filex executable and copy them to **/usr/local/bin** directory:
+then make files executable and copy them to **/usr/local/bin** directory:
 ```
 cd zabbix-systemd-service-monitoring
-chmod +x usr/local/bin/zbx_service*.bin
+chmod +x usr/local/bin/zbx_service*
 cp usr/local/bin/zbx_service_* /usr/local/bin/
 ```
 
