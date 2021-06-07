@@ -8,14 +8,17 @@ Requairments:
   
 :heavy_exclamation_mark: To connect to Elevate WEB3 nodes monitoring server you need to <put a name here - discord ? / telegram ? > and request support from one of our admins. When granted you can proceed with preparation your node to be connected to monitoring server :heavy_exclamation_mark:
 
+
+:heavy_exclamation_mark: All commands need to be executed as root user (or using sudo):heavy_exclamation_mark:
+
 ## Instaling Zabbix agent
 
 To install and enable zabbix agent to start after reebot do as follow:
 ```
 apt install zabbix-agent
-sudo systemctl enable zabbix-agent
-sudo systemctl restart zabbix-agent
-sudo systemctl status zabbix-agent
+systemctl enable zabbix-agent
+systemctl restart zabbix-agent
+systemctl status zabbix-agent
 ```
 
 Successfull output should looks like this:
